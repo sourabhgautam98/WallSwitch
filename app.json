@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "wallpaper-rotator",
-    "slug": "wallpaper-rotator",
+    "name": "WallSwitch",
+    "slug": "wall-switch",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "wallpaperrotator",
+    "scheme": "wallswitch",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.soourabh11.wallpaperrotator"
     },
     "web": {
       "output": "static",
@@ -43,6 +44,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4c260524-323b-4c8f-a423-6916dd84e320"
+      }
     }
   }
 }
